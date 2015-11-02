@@ -23,7 +23,7 @@ public class Prestamos extends javax.swing.JFrame {
       double mensualidadPrestamo,viabilidad;
        double PORCENTAJE_INTERES;
        boolean botonesPrestamo;
-    private Object evt;
+       private Object evt;
 
     /**
      * Creates new form Prestamos
@@ -381,6 +381,7 @@ public class Prestamos extends javax.swing.JFrame {
          botonesPrestamo = true;
          aceptar.setText("Aceptar");
          cancelar.setText("Cancelar");
+         jLabelPrestamoConcedido.setText("El préstamo ha sido concedido.");
        
        DecimalFormat formato = new DecimalFormat("#,###.### ¤");
        DecimalFormat formato2 = new DecimalFormat("#.### ¤");
